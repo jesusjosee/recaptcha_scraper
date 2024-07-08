@@ -1,0 +1,28 @@
+# Ignore .env files
+.env
+
+# Ignore virtual environment
+venv/
+/venv/
+
+# Ignore output directory
+output_dir/
+
+# Ignore Python generated files
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pyzw
+
+# Ignore audio files
+*.mp3
+*.wav
+
+# Ignore crypton files
+*.crypt
+
+# error files 
+error_page.html
+error_screenshot.png
