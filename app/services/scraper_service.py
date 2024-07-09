@@ -1,5 +1,3 @@
-# app/services/scraper_service.py
-
 from playwright.sync_api import Playwright
 from app.services.captcha_solver import CaptchaSolver
 import os

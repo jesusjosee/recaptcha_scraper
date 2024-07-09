@@ -15,7 +15,7 @@ Esta aplicación realiza scraping en sitios web protegidos por ReCaptcha utiliza
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/jesusjosee/recaptcha_scraper.git
    cd recaptcha_scraper
    ```
 

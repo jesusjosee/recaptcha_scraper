@@ -8,7 +8,6 @@ class RecaptchaV2CheckboxResolver(BaseResolver):
             checkbox = iframe.locator(".recaptcha-checkbox-border")
             checkbox.click()
             print("click en checkbox")
-            # Wait for reCAPTCHA to be solved manually
             page.wait_for_timeout(5000)
             return True
         except Exception as e:
